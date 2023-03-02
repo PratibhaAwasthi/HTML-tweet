@@ -67,7 +67,7 @@
       .bi-chat {
         color: rgb(84, 84, 84);
         position: relative;
-        margin-left: 5em;
+        margin-left: 0.1pt;
       }
       .bi-arrow-return-left {
         color: rgb(84, 84, 84);
@@ -89,23 +89,42 @@
         position: relative;
         margin-left: 5em;
       }
+      .topBody {
+        /* margin-bottom: 12em; */
+        margin-top: -30px;
+      }
+      .bottomBody {
+        margin-top: -15px;
+      }
+      .icons {
+        margin-top: 4em;
+      }
     </style>
   </head>
   <body>
     <div class="boxed">
       <img src="./images/userProfile.JPG" alt="Profile Picture" />
-      <p class="name">Pratibha Awasthi</p>
-      <p class="username">@pratibhaawasthi</p>
-      <p class="timestampDivision">·</p>
-      <p class="timestamp">3h</p>
+      <div class="bottomBody">
+        <span class="tweet"
+          >I am a grad student pursuing Computer Engineering. Im in my 2nd
+          trimester</span
+        >
+      </div>
 
-      <span class="tweet">This is my first tweet!</span>
+      <div class="topBody">
+        <p class="name">Pratibha Awasthi</p>
+        <p class="username">@pratibhaawasthi</p>
+        <p class="timestampDivision">·</p>
+        <p class="timestamp">3h</p>
+      </div>
 
-      <!-- <span class="bi bi-chat"></span>
-      <span class="bi bi-arrow-return-left"></span>
-      <span class="bi bi-heart-fill"></span>
-      <span class="bi bi-box-arrow-up"></span>
-      <span class="bi bi-bar-chart-fill"></span> -->
+      <div class="icons">
+        <span class="bi bi-chat"></span>
+        <span class="bi bi-arrow-return-left"></span>
+        <span class="bi bi-heart-fill"></span>
+        <span class="bi bi-box-arrow-up"></span>
+        <span class="bi bi-bar-chart-fill"></span>
+      </div>
     </div>
   </body>
 </html>
